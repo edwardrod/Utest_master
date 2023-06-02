@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f11152e4004e97d969792578302edec1c00d66ba60bc83a5cd6fcbdde08d97cf.html">Registro De Usuario En La Plataforma Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="b3d732737f3b017e6335863f8ad7bc251c80821c454d2116a59faba10b2b66ce.html">Registro de Luis en Utest </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-06-2023 09:20</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro De Usuario En La Plataforma Utest</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registro de Luis en Utest
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3e3fb180d1754aa7c16d4edf5d5b26f45a11df33f40e0a3b0b98a5327d694c23.png" title=" Given Eduar desea registrarse en la plataforma Utest" width="1920"/>
+                <img src="3e3fb180d1754aa7c16d4edf5d5b26f45a11df33f40e0a3b0b98a5327d694c23.png" title=" Eduar abrir pagina utest" width="1920"/>
+                <img src="3e3fb180d1754aa7c16d4edf5d5b26f45a11df33f40e0a3b0b98a5327d694c23.png" title=" Eduar opens the Pagina utest" width="1920"/>
+                <img src="0837fd4c5ade62cfae22fa85d391eeabae20621d70935460fb134d1f94085e06.png" title=" Eduar clicks on Boton para iniciar proceso de registro" width="1920"/>
+                <img src="0837fd4c5ade62cfae22fa85d391eeabae20621d70935460fb134d1f94085e06.png" title=" Eduar abrir pagina utest (completed)" width="1920"/>
+                <img src="0837fd4c5ade62cfae22fa85d391eeabae20621d70935460fb134d1f94085e06.png" title=" Given Eduar desea registrarse en la plataforma Utest (completed)" width="1920"/>
+                <img src="a06ca97deb0ef4f565ec2abc7cf89e3a0a06a148a9af43ac120fa0d804e4f0a8.png" title=" When El usuario ingresa toda la informacion requerida por la pagina
+| strNombre | strApellido | strEmail | strMesNacimiento | strDiaNacimiento | strAnoNacimiento | strCiudad | strCodigoPostal | strPais | strComputador | strVersionComputador | strLenguajeComputador | strDispositivoMovil | strModeloDispositivoMovil | strSistemaOperativoMovil | strContrasena |
+| Eduar | Rodriguez | eduar9193rod@gmail.com | August | 7 | 1998 | Villavicencio | 500005 | Colombia | Windows | 10 | Spanish | Samsung | Galaxy M12 | Android 11 | Eduarod@1234 |" width="1920"/>
+                <img src="a06ca97deb0ef4f565ec2abc7cf89e3a0a06a148a9af43ac120fa0d804e4f0a8.png" title=" Eduar llenar pagina info personal" width="1920"/>
+                <img src="a06ca97deb0ef4f565ec2abc7cf89e3a0a06a148a9af43ac120fa0d804e4f0a8.png" title=" Eduar enters 'Eduar' into Nombre de usuario" width="1920"/>
+                <img src="92b9d287f2304edefb2f6b1ae895299874287fbc0643ff732974f7c52d1ec95d.png" title=" Eduar enters 'Rodriguez' into Apellido de usuario" width="1920"/>
+                <img src="d15cf4d6b36e5edda608d793873d307b33d748ee171c9179fc11142e3a53b56f.png" title=" Eduar enters 'eduar9193rod@gmail.com' into Email de usuario" width="1920"/>
+                <img src="8f892fa24c44cbf0a09d14f653be13a84d8d146c256ee19f755adb2b5b0c13e9.png" title=" Eduar select August on Mes nacimiento de usuario" width="1920"/>
+                <img src="5cd756f19942548e282818965a1342cac2dd0a18d9a7b1a8c3111d2c4361ed2d.png" title=" Eduar select 7 on Dia nacimiento de usuario" width="1920"/>
+                <img src="488443e22f0510f184175ec5b02e04a34701b92bbdf82b5d6b8958135ecb0c5e.png" title=" Eduar select 1998 on A&Atilde;&plusmn;o nacimiento de usuario" width="1920"/>
+                <img src="ed993e6a348bd2cb921ec9d5e3a1a34575ff9a2dabc09433aae5361f12a47f54.png" title=" Eduar clicks on Boton para ir a seccion de Direccion" width="1920"/>
+                <img src="ed993e6a348bd2cb921ec9d5e3a1a34575ff9a2dabc09433aae5361f12a47f54.png" title=" Eduar llenar pagina info personal (completed)" width="1920"/>
+                <img src="6074b695085c81874ab653df84c97b753761bf658a144eb6a2b04756c2dadf37.png" title=" Eduar llenar pagina direccion" width="1920"/>
+                <img src="6074b695085c81874ab653df84c97b753761bf658a144eb6a2b04756c2dadf37.png" title=" Eduar enters 'Villavicencio' into Ciudad" width="1920"/>
+                <img src="229e37d893da78078c93fbdc7210b1a1ff714d474ad733ae26b6872bd0f1060c.png" title=" Eduar types 'ARROW_DOWN' in Ciudad" width="1920"/>
+                <img src="953cc680c14866255c762da76f260ec911f8cced784ac04aa7fe406008487f11.png" title=" Eduar types 'ENTER' in Ciudad" width="1920"/>
+                <img src="b2e747d07f59bb8a3b7225409de389c07c1bda8a7c12b7ea3f6ee92b12351e50.png" title=" Eduar enters '500005' into Codigo postal" width="1920"/>
+                <img src="4aa54f02bab6eac8228bcc00e9f137c7f6b84360d169d44d0ee1f58f8ae1cfad.png" title=" Eduar clicks on Contenedor de paises" width="1920"/>
+                <img src="ac0b417dd1d9eb430fe2ac3533c79df05a37805bb30b439107af9f9b1628f3f4.png" title=" Eduar enters 'Colombia' then hits ARROW_DOWN and ENTER into Pais" width="1920"/>
+                <img src="7681f96eca658a80650c05edf3b1d3329880a42b4bb24f31f6810929aa53b211.png" title=" Eduar clicks on Boton que lleva a la seccion Dispositivos" width="1920"/>
+                <img src="7681f96eca658a80650c05edf3b1d3329880a42b4bb24f31f6810929aa53b211.png" title=" Eduar llenar pagina direccion (completed)" width="1920"/>
+                <img src="e2a4ec5fed87ad39ac35b4fad30e87a6eb32b377913a6bd02cfcb091736087ee.png" title=" Eduar llenar pagina dispositivos" width="1920"/>
+                <img src="e2a4ec5fed87ad39ac35b4fad30e87a6eb32b377913a6bd02cfcb091736087ee.png" title=" Eduar clicks on Contenedor de computadores" width="1920"/>
+                <img src="782f59fd918bff8ef191114b9410038ebec3845c7a55dc323f7f260c0e38f1c7.png" title=" Eduar enters 'Windows' then hits ARROW_DOWN and ENTER into Computador" width="1920"/>
+                <img src="a4c3bfbaaf163521c13842a8eec5b38a630231c9df79ca1e26228f7d3ce187dd.png" title=" Eduar clicks on Contenedor de version de computador" width="1920"/>
+                <img src="699bc42b06a5c531c7246a5929d7ebd79dc8028083d68ae5d0c5023be2a220d9.png" title=" Eduar enters '10' then hits ARROW_DOWN and ENTER into Version de computador" width="1920"/>
+                <img src="9c58650c502cb8cbcf3ed5ce0833f372c1e1cdc4bc7244d3d9d4fefee456c41b.png" title=" Eduar clicks on Contenedor de lenguajes" width="1920"/>
+                <img src="925258ba14431c68196c7771521b0f0b4b4c77893b551085af582fbdec5ac26d.png" title=" Eduar enters 'Spanish' then hits ARROW_DOWN and ENTER into Lenguaje" width="1920"/>
+                <img src="7492af82385ce1b818d8d92208b102fae0b3e0ee0ef32a5ab6b7185b3c785d33.png" title=" Eduar clicks on Contenedor de dispositivos moviles" width="1920"/>
+                <img src="2b5d42324309f753c5b748da23a1106b5893c3198d4db348466ab12871667eae.png" title=" Eduar enters 'Samsung' then hits ARROW_DOWN and ENTER into Dispositivo movil" width="1920"/>
+                <img src="1afa6f9443a10d1326cd401c0a9803fb474f702e66c955829555f47155321179.png" title=" Eduar clicks on Contenedor de modelos de dispositivo movil" width="1920"/>
+                <img src="9b3a931ddac0ec5335555614fdba9862834d39b303e479b619d5f9e4ad48a2be.png" title=" Eduar enters 'Galaxy M12' then hits ARROW_DOWN and ENTER into Modelo de dispositivo movil" width="1920"/>
+                <img src="f4713f01adbac5499c628f3f6459d2045ac3c574ae5fac97a71d7f4231a25780.png" title=" Eduar clicks on Contenedor de sistemas operativos del movil" width="1920"/>
+                <img src="fd74150fd93df40fc726a37ea8ef57662905d81dcedd950c7c4fa67f65d29e2a.png" title=" Eduar enters 'Android 11' then hits ARROW_DOWN and ENTER into Sistema operativo del movil" width="1920"/>
+                <img src="dccd99833983309e49a275278e75db184c355f3227908dbac6ee33da413b7282.png" title=" Eduar clicks on Boton para ir a seccion de Paso final" width="1920"/>
+                <img src="dccd99833983309e49a275278e75db184c355f3227908dbac6ee33da413b7282.png" title=" Eduar llenar pagina dispositivos (completed)" width="1920"/>
+                <img src="0bf08e819efef1bf7a0b36cc6e0a24de66f2565132899509314995fc03eed5bd.png" title=" Eduar llenar pagina final" width="1920"/>
+                <img src="0bf08e819efef1bf7a0b36cc6e0a24de66f2565132899509314995fc03eed5bd.png" title=" Eduar enters 'Eduarod@1234' into Contrase&Atilde;&plusmn;a de usuario" width="1920"/>
+                <img src="18c21cf04eb75cd293e35502b0bad22fa85a145d835e523ed62aa54600e3d22c.png" title=" Eduar enters 'Eduarod@1234' into Confirmar la contrase&Atilde;&plusmn;a de usuario" width="1920"/>
+                <img src="399e3505fce5423c9e791171188ccb4d7d492d7ceda17582318a38c30ca03979.png" title=" Eduar clicks on Checkbox 01" width="1920"/>
+                <img src="4f072630198919f53b0bb495f29904c8fcddd05a2f18b8a512329d109eab6765.png" title=" Eduar clicks on Checkbox 02" width="1920"/>
+                <img src="b800d66ff1d12e532c0022533e2b5fe85811f8c9617b8f6f676567e995db4711.png" title=" Eduar clicks on Checkbox 03" width="1920"/>
+                <img src="842e6c3a4901a28969a807fc86445e40fea5687f980e8d7c5a965506d757e513.png" title=" Eduar llenar pagina final" width="1920"/>
+                <img src="842e6c3a4901a28969a807fc86445e40fea5687f980e8d7c5a965506d757e513.png" title=" Eduar clicks on Boton para finalizar el resgistro" width="1920"/>
+                <img src="842e6c3a4901a28969a807fc86445e40fea5687f980e8d7c5a965506d757e513.png" title=" When El usuario ingresa toda la informacion requerida por la pagina
+| strNombre | strApellido | strEmail | strMesNacimiento | strDiaNacimiento | strAnoNacimiento | strCiudad | strCodigoPostal | strPais | strComputador | strVersionComputador | strLenguajeComputador | strDispositivoMovil | strModeloDispositivoMovil | strSistemaOperativoMovil | strContrasena |
+| Eduar | Rodriguez | eduar9193rod@gmail.com | August | 7 | 1998 | Villavicencio | 500005 | Colombia | Windows | 10 | Spanish | Samsung | Galaxy M12 | Android 11 | Eduarod@1234 | (completed)" width="1920"/>
+                <img src="ec043e834e31356ae80096b22a5a66dae72c5a1b661bb8f893d6b07f1996ebc8.png" title=" Then El registro se completa cuando aparece el boton Complete Setup
+| strTextoFinal |
+| Welcome to the world's largest community of freelance software testers! |" width="1920"/>
+                <img src="ec043e834e31356ae80096b22a5a66dae72c5a1b661bb8f893d6b07f1996ebc8.png" title=" Then responder" width="1920"/>
+                <img src="ec043e834e31356ae80096b22a5a66dae72c5a1b661bb8f893d6b07f1996ebc8.png" title=" Then El registro se completa cuando aparece el boton Complete Setup
+| strTextoFinal |
+| Welcome to the world's largest community of freelance software testers! | (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

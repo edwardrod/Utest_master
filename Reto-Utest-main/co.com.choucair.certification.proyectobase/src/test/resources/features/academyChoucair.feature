@@ -1,0 +1,8 @@
+@stories
+  Feature: Academy Choucair
+    As a user, I want to learn how to automate in screamplay at the Choucair Academy with the automation course
+    @scenario1
+    Scenario: Search for a automation course
+      Given than brandon wants to learn automation at the academy Choucair
+      When he search for the course Examen JAVA - Cursos y Certificaciones on the choucair academy platform
+      Then he finds the course called resources Examen JAVA - Cursos y Certificaciones
